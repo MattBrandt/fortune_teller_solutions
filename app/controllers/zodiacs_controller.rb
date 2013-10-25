@@ -1,5 +1,6 @@
 class ZodiacsController < ApplicationController
   def show
+    @what_they_typed_after_the_slash = params[:sign]
   end
 
   # def ram
