@@ -12,6 +12,6 @@ FortuneTeller::Application.routes.draw do
   get("/zodiacs/scorpio",     { :controller => "zodiacs", :action => "scorpion" })
   get("/zodiacs/sagittarius", { :controller => "zodiacs", :action => "archer" })
   get("/zodiacs/capricorn",   { :controller => "zodiacs", :action => "goathorned" })
-  # get("/zodiacs/aquarius",    { :controller => "zodiacs", :action => "waterbearer" })
+  get("/zodiacs/aquarius",    { :controller => "zodiacs", :action => "waterbearer" })
   # get("/zodiacs/pisces",      { :controller => "zodiacs", :action => "fishes" })
 end
